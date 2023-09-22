@@ -1,0 +1,45 @@
+/* Style for About Section */
+section {
+  padding: 100px 0;
+}
+
+.about {
+  display: flex;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.about .title {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.about .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .about-content .left {
+  width: 45%;
+}
+
+.about .about-content .left img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.about .about-content .right {
+  width: 55%;
+}
+
+.about .about-content .right .text {
+  margin-bottom: 5px;
+}
+.about .about-content .right p {
+  font-size: 20px;
+  text-align: justify;
+}

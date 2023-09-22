@@ -1,0 +1,81 @@
+/* Footer container */
+.footer {
+  background-color: #1f7a8c;
+  color: white;
+  padding: 40px 0;
+}
+
+/* Styling for "Quick Links" section */
+.footer .quick-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .quick-links li {
+  margin-bottom: 10px;
+}
+
+.footer .quick-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer .quick-links a:hover {
+  color: #ffcc00;
+}
+
+/* Styling for "Contact Info" section */
+.footer .contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .contact-info li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer .contact-info .fa {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* Styling for "Newsletter" section */
+.footer .newsletter p {
+  margin-bottom: 10px;
+}
+
+.footer .newsletter input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styling for buttons */
+.footer .newsletter button {
+  background-color: #ffcc00; /* Button background color */
+  color: #1f7a8c; /* Button text color */
+  border: #004e66;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer .newsletter button:hover {
+  background-color: #1f7a8c; /* Change background color on hover */
+  color: #ffcc00; /* Change text color on hover */
+  border: #004e66 solid;
+}
+
+/* Styling for "Footer Bottom" section */
+.footer .footer-bottom {
+  background-color: #004e66;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer .footer-bottom p {
+  margin: 0;
+}
